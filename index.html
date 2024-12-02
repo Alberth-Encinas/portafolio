@@ -1,11 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portafolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Alberth Encinas</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+   <style>
+        body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        color: #333;
+    }
+    .container {
+        max-width: 600px;
+    }
+    h1 {
+        font-size: 3rem;
+        color: #007bff;
+    }
+    p {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+    .technologies {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .tech-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+    .tech-item i {
+        font-size: 2rem;
+        color: #007bff;
+    }
+   </style>
 </head>
 <body>
-    <h1>Hola este es mi Portafolio.</h1>
+  <div class="container">
+    <h1>Hola, soy Alberth Encinas</h1>
+    <p>Desarrollador FullStack apasionado por crear soluciones eficientes y escalables.</p>
+    <p>Con experiencia en desarrollo web, backend y tecnologías modernas.</p>
+    <div class="technologies">
+      <div class="tech-item">
+        <i class="fab fa-html5"></i>
+        <span>HTML5</span>
+      </div>
+      <div class="tech-item">
+        <i class="fab fa-css3-alt"></i>
+        <span>CSS3</span>
+      </div>
+      <div class="tech-item">
+        <i class="fab fa-js"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="tech-item">
+        <i class="fab fa-angular"></i>
+        <span>Angular</span>
+      </div>
+      <div class="tech-item">
+        <i class="fab fa-node-js"></i>
+        <span>Node.js</span>
+      </div>
+      <div class="tech-item">
+        <i class="fas fa-database"></i>
+        <span>PostgreSQL</span>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
